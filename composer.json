@@ -1,0 +1,17 @@
+{
+    "name": "sohris/thread",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Rdanieli",
+            "email": "rodri.merlucci@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "Sohris\\Thread\\": "src/"
+        }
+      }
+}
