@@ -17,4 +17,9 @@ class Process
         return $this->pid;
     }
 
+    public function setName(string $name)
+    {
+        $pid = $this->pid;
+        @file_put_contents("/proc/$pid/comm", $name);
+    }
 }
